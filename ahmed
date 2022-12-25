@@ -1,0 +1,27 @@
+int main()
+{
+    char str[50];
+int i,k, NumOfThrees=0, NumOfSevens=0;
+
+ void count()
+ {
+ cout<<"Enter a number: ";
+ cin>>str;
+ for (i=0;i<=strlen(str);i++){
+ & if (str[i]=='3') NumOfThrees++;
+ & if (str[i]=='7') NumOfSevens++;
+ }
+ }
+
+ void main(){
+
+ for (k=1;k<=5;k++) count();
+
+ cout<<"The number of threes is "<<NumOfThrees<<"\r\n";
+ cout<<"The number of sevens is "<<NumOfSevens<<"\r\n";
+
+
+}
+        return 0 ;
+}
+
